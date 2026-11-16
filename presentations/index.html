@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>民俗體育比賽規則｜家長與選手指南</title><style>:root{color-scheme:light;--ink:#193a34;--sub:#45625a;--bg:#eef5ef;--paper:#fffdf6;--green:#155d4d;--line:#cadbd2}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Instrument Sans","Microsoft JhengHei",system-ui,sans-serif}main{max-width:1100px;margin:auto;padding:clamp(18px,5vw,62px)}a{color:var(--green)}h1,h2,p{margin-top:0}h1{font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.12;margin-bottom:20px}h2{font-size:clamp(1.6rem,4vw,2.7rem);line-height:1.25;margin-bottom:20px}.intro{max-width:680px;font-size:1.1rem}.hero{background:#173e35;color:#fffdf6;padding:clamp(26px,6vw,65px);border-radius:16px}.hero p:last-child{margin-bottom:0}.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:14px;margin:24px 0}.cards a{text-decoration:none;background:var(--paper);padding:20px;border:1px solid var(--line);border-radius:12px;display:grid;gap:8px;color:var(--ink)}.cards a:hover{border-color:var(--green);background:white}.cards b{font-size:1.65rem;color:var(--green)}.cards span,small{color:var(--sub)}.meta{margin-bottom:14px;color:var(--sub);font-size:.95rem}.top,.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.top{margin-bottom:18px}.deck article{background:var(--paper);border-top:7px solid #2f7864;border-radius:12px;padding:clamp(20px,5vw,60px);min-height:min(56vw,540px);display:flex;flex-direction:column}.deck article[hidden]{display:none}.deck ul{padding:0;list-style:none;display:grid;gap:10px;font-size:clamp(1rem,2.3vw,1.4rem);margin:0 0 28px}.deck li{padding:9px 13px;background:#e9f1eb;border-left:4px solid #90b6a4}.deck footer{margin-top:auto}.controls{margin-top:14px}button,select{font:inherit;border:1px solid var(--green);border-radius:8px;padding:7px 12px;color:var(--green);background:var(--paper)}button{cursor:pointer}button:disabled{opacity:.48;cursor:default}button:not(:disabled):hover{background:white}select{background:var(--paper)}label{display:flex;align-items:center;gap:8px;flex-wrap:wrap}output{min-width:5ch;text-align:center;color:var(--sub)}.use{margin-top:34px;max-width:760px}.use p:last-child{margin-bottom:0}.note{font-size:.95rem;color:var(--sub);margin-top:18px}.sports{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}.sports button{background:var(--paper)}.sports button[aria-pressed="true"]{background:var(--green);color:var(--paper)}.sports .backHome{margin-left:auto;border-style:dashed}#controls{display:none}#controls.ready{display:flex}@media (max-width:520px){.sports .backHome{margin-left:0}}</style></head>
+<body>
+<main>
+  <div id="homeView">
+    <header class="hero"><p>家長與選手指南</p><h1>民俗體育<br>比賽規則</h1><p class="intro">賽前查器材、時間和指定動作，比賽時看懂得分、失誤與名次。從下方選一項運動，即可逐頁閱讀。</p></header>
+    <nav class="cards" aria-label="四項運動簡報">
+      <a href="#diabolo" data-sport="diabolo"><b>扯鈴</b><span>開場用鈴、指定動作與席次</span><span>2025 年版 · 6 頁 →</span></a>
+      <a href="#jump-rope" data-sport="jump-rope"><b>跳繩</b><span>花式、30 秒速度與團體計次</span><span>2025 年版 · 5 頁 →</span></a>
+      <a href="#spinning-top" data-sport="spinning-top"><b>陀螺</b><span>擲準、花式與成功判定</span><span>2026 年 1 月修正版 · 5 頁 →</span></a>
+      <a href="#shuttlecock" data-sport="shuttlecock"><b>踢毽</b><span>花式、限時計次與網毽</span><span>2025 年版 · 6 頁 →</span></a>
+    </nav>
+    <section class="use"><h2>怎麼用這個網站？</h2><p><strong>選手賽前</strong>可以依賽別核對器材、時間和指定動作。<strong>家長觀賽</strong>可以從各簡報的得分與失誤頁，理解裁判如何計次或評分。</p><p>四項簡報都整合在這一頁：點卡片或上方標籤就能切換，換頁用「上一頁／下一頁」或鍵盤左右鍵，不必另開檔案。每張投影片下方都有條號和頁碼，遇到賽事另行公告時，可與原始規則核對。</p></section>
+  </div>
+
+  <div id="deckView" hidden>
+    <nav class="sports" aria-label="切換運動項目">
+      <button type="button" data-sport="diabolo" aria-pressed="false">扯鈴</button>
+      <button type="button" data-sport="jump-rope" aria-pressed="false">跳繩</button>
+      <button type="button" data-sport="spinning-top" aria-pressed="false">陀螺</button>
+      <button type="button" data-sport="shuttlecock" aria-pressed="false">踢毽</button>
+      <button type="button" class="backHome" id="backHome">← 四項總覽</button>
+    </nav>
+
+    <section class="deck" id="diabolo" data-sport="diabolo" data-title="扯鈴" aria-label="扯鈴比賽規則">
+      <article><header><p class="meta">扯鈴｜2025 年版</p><h2>先確認你的賽別</h2></header><ul><li>個人｜1 人，3 分 30 秒至 4 分。前 2 分鐘須使用固定軸雙頭鈴與具鈴盒的固定軸單頭響鈴。</li><li>雙人｜2 人，3 分 30 秒至 4 分。前 2 分鐘使用固定軸雙頭鈴。</li><li>團體｜6 人，5 分 30 秒至 6 分。前 3 分鐘使用固定軸雙頭鈴。</li></ul><footer><small>原規則第 4-4、4-6｜第 2、4–5 頁</small></footer></article>
+      <article><header><p class="meta">扯鈴｜2025 年版</p><h2>器材與上場計時</h2></header><ul><li>選手自備鈴、鈴繩、鈴棍。鈴棍 40 公分以下，鈴面 10–15 公分，鈴盒有 8–10 孔。</li><li>服裝整潔大方，服裝本身不計分。</li><li>等主任裁判信號。鈴轉、人動、音樂開始，三者最早者起算，鈴停止運轉時結束。</li></ul><footer><small>原規則第 4-2-2、4-4-2、4-10｜第 2、7 頁</small></footer></article>
+      <article><header><p class="meta">扯鈴｜2025 年版</p><h2>指定動作</h2></header><ul><li>個人雙頭鈴｜繞、跳、纏、拋、甩、迴轉、定點。單頭鈴｜雷鳴大地、海底撈針、掌上明珠。</li><li>雙人｜移位、互拋、二人一鈴繩、一鈴繩二鈴、呈現默契的變化。</li><li>團體｜六人接龍、遊龍戲鳳、圓形移位、六人對拋、仙人過橋、一道彩虹。</li></ul><footer><small>原規則第 4-6｜第 4–5 頁</small></footer></article>
+      <article><header><p class="meta">扯鈴｜2025 年版</p><h2>拿分與名次</h2></header><ul><li>技術看動作或互動難度，藝術看編排、動勢及流暢度。</li><li>技術與藝術原始分各減實施扣分，再換算 T 分數。名次依裁判席次判定。</li><li>席次法出現同名次時，先比較技術與藝術裁判的 T 分數平均，再按條文順序比序。</li></ul><footer><small>原規則第 4-7、4-8｜第 5–7 頁</small></footer></article>
+      <article><header><p class="meta">扯鈴｜2025 年版</p><h2>什麼情況會扣分？</h2></header><ul><li>時間不足或逾時、開場用鈴不符規定，各扣 10 分。</li><li>指定動作做了但不符規定，每項扣 1 分。未做每項扣 2 分。</li><li>踩線或出界每次扣 0.5 分。出界所做內容不計成績。</li></ul><footer><small>原規則第 4-6、4-7、4-10｜第 4–7 頁</small></footer></article>
+      <article><header><p class="meta">扯鈴｜2025 年版</p><h2>失誤怎麼判？</h2></header><ul><li>個人｜纏鈴或鈴落地等失誤，每次扣 0.5 分。</li><li>雙人｜小失誤每次扣 0.5 分。雙人互動時，兩鈴以上纏鈴或落地屬大失誤，每次扣 1 分。</li><li>團體｜小失誤每次扣 0.5 分。團體互動時，四鈴以上纏鈴或落地屬大失誤，每次最多扣 2 分。</li></ul><footer><small>原規則第 4-7-1-3 至 4-7-3-3｜第 5–6 頁</small></footer></article>
+    </section>
+
+    <section class="deck" id="jump-rope" data-sport="jump-rope" data-title="跳繩" aria-label="跳繩比賽規則">
+      <article><header><p class="meta">跳繩｜2025 年版</p><h2>賽別、時間與人數</h2></header><ul><li>花式｜個人 1 人，1 分 30 秒至 2 分。雙人 2 人，2 分至 2 分 30 秒。團體 12 人，7 至 8 分。</li><li>個人速度賽 30 秒。團體限時計次 3 分鐘，另有團體不限時計次。團體計次都是 12 人。</li><li>相繞繩（複繩）接力 4 人，每人跳 30 秒。</li></ul><footer><small>原規則第 3-3、3-4、3-6｜第 2–5 頁</small></footer></article>
+      <article><header><p class="meta">跳繩｜2025 年版</p><h2>器材與站位</h2></header><ul><li>比賽繩原則上自備，材質、長度、粗細及重量不限，顏色以容易辨識為宜。</li><li>團體限時與不限時計次使用大會供繩。兩人掌繩相距 12 公尺、站在線後，其餘 10 人同跳。</li></ul><footer><small>原規則第 3-2、3-7-5、3-7-6｜第 2、7–8 頁</small></footer></article>
+      <article><header><p class="meta">跳繩｜2025 年版</p><h2>花式指定內容</h2></header><ul><li>個人｜前、後、空迴旋，軸心與螺旋迴旋跳，一跳二迴旋，交叉迴旋、開叉一跳二迴旋，以及移位和方向變化。</li><li>雙人｜異次異時異位的縱立、併立，以及方向變化、移位與二人二繩。</li><li>團體｜交叉、複合、波浪、相繞型迴旋配合跳。每型至少 3 人，未滿 3 人的動作不計分。</li></ul><footer><small>原規則第 3-6-1 至 3-6-3｜第 4–5 頁</small></footer></article>
+      <article><header><p class="meta">跳繩｜2025 年版</p><h2>花式如何得分與扣分？</h2></header><ul><li>技術 40、藝術 30、實施 30。技術與藝術採加分，實施採扣分。花式同分先比技術，再比藝術、實施。</li><li>時間不足或逾時扣 10 分。個人及雙人每次失誤扣 0.25 分。</li><li>團體小失誤（單人或中繩失誤，外繩仍能轉）扣 0.25 分，外繩失誤扣 0.5 分。</li></ul><footer><small>原規則第 3-6、3-7、3-8-2｜第 4–9 頁</small></footer></article>
+      <article><header><p class="meta">跳繩｜2025 年版</p><h2>計次怎麼算成功？</h2></header><ul><li>30 秒速度賽用前迴旋跑步跳，依序右腳、左腳完成算 1 次。踩繩或勾繩導致停轉，該次不計。</li><li>團體 10 人同時成功起跳才計次。限時看累計，不限時看連續成功。</li><li>個人速度搶跳，或複繩接力的起跳／接力犯規，每次扣 10 次。計次同分依賽別比較失誤，仍同分則加賽。</li></ul><footer><small>原規則第 3-7-4 至 3-7-7、3-8-2｜第 7–9 頁</small></footer></article>
+    </section>
+
+    <section class="deck" id="spinning-top" data-sport="spinning-top" data-title="陀螺" aria-label="陀螺比賽規則">
+      <article><header><p class="meta">陀螺｜2026 年 1 月修正版</p><h2>賽別與器材</h2></header><ul><li>擲準和花式都有個人及團體，團體 4 人。擲準只使用陀螺和繩，花式可搭配道具。</li><li>木製陀螺直徑 2–3.5 吋，陀螺繩材質、粗細與長短不限。陀螺架和盤由大會提供。</li><li>擲準起始線距盤中心 200 公分。標準盤 30 公分、月球盤 10 公分、火星盤 5 公分。</li></ul><footer><small>原規則第 5-1 至 5-4｜第 2–3 頁</small></footer></article>
+      <article><header><p class="meta">陀螺｜2026 年 1 月修正版</p><h2>擲準指定動作</h2></header><ul><li>依序做前投、跪投、釘投、抬腿投、轉身投。</li><li>接著做拉回上手、潛拉進盤、左右開弓、登陸月球、登陸火星。</li><li>每個動作做兩次。團體擲準於出手線外出手，踩線或越線以失誤算。</li></ul><footer><small>原規則第 5-6、5-7-1｜第 4 頁</small></footer></article>
+      <article><header><p class="meta">陀螺｜2026 年 1 月修正版</p><h2>擲準如何拿分？</h2></header><ul><li>每次成功 5 分。依動作要求維持轉動至少 3 秒。拉回上手在手上轉，登陸月球與火星須進各自指定圓盤。</li><li>個人限 7 分，滿分 100；團體限 8 分，滿分 400。逾時不計分。</li><li>同分先比較登陸火星的失誤次數，再比月球、左右開弓等，按規定從難到易比。</li></ul><footer><small>原規則第 5-7-1、5-8-2-3、附錄｜第 4、6–7 頁</small></footer></article>
+      <article><header><p class="meta">陀螺｜2026 年 1 月修正版</p><h2>花式指定動作與拿分</h2></header><ul><li>基本動作有前投、跪投、釘投、抬腿投、轉身投，並配合音樂節奏和自編動作。</li><li>技術 40、藝術 30、實施 30。技術看技巧、肢體與組合的流暢性，藝術看編排、律動、創意等。</li><li>個人 3 分至 3 分 30 秒，團體 5 分 30 秒至 6 分。</li></ul><footer><small>原規則第 5-6、5-7-2 至 5-7-4｜第 4–5 頁</small></footer></article>
+      <article><header><p class="meta">陀螺｜2026 年 1 月修正版</p><h2>花式失誤與時間扣分</h2></header><ul><li>基本動作缺一項扣 2 分。失誤每次扣 1 分，逾越場地扣 1 分。</li><li>個人花式停頓超過 10 秒，視為動作結束，依已做動作評分。</li><li>時間扣分有兩段條文：一般評分列扣 2 分，個人與團體實施細則另列分級。實際採用方式及超過 20 秒但未達 1 分鐘的處理，需向主辦確認。</li></ul><footer><small>原規則第 5-7-2-3 至 5-7-4-1｜第 5 頁</small></footer></article>
+    </section>
+
+    <section class="deck" id="shuttlecock" data-sport="shuttlecock" data-title="踢毽" aria-label="踢毽比賽規則">
+      <article><header><p class="meta">踢毽｜2025 年版</p><h2>賽別、器材與人數</h2></header><ul><li>花式有個人、雙人與團體，限時計次有個人與團體。團體花式和團體計次自 2024 年起為 4 人一組。</li><li>網毽有單打與雙打。網毽用毽由主辦提供，其餘賽別由選手自備。</li></ul><footer><small>原規則第 2-1 至 2-4｜第 3 頁</small></footer></article>
+      <article><header><p class="meta">踢毽｜2025 年版</p><h2>花式指定動作</h2></header><ul><li>第一套｜小武的踢、拐、膝、踶，須做左右，並以定點結束。</li><li>第二套｜大武的跳、蹺、跪、踩，做單邊，並以定點結束。雙人由起毽者定點結束。</li><li>自選動作包含小武、大武、繞、定點、轉、移位及方向變化。</li></ul><footer><small>原規則第 2-6-1 至 2-6-3｜第 6 頁</small></footer></article>
+      <article><header><p class="meta">踢毽｜2025 年版</p><h2>花式拿分與名次</h2></header><ul><li>技術 30、藝術 30、實施 40。技術看動作難度、控制與組合，藝術看編排、律動、流暢和創意。</li><li>各裁判把總分轉成序位，加總最低者優先。相同時先比第一序位的數量，再比第二、第三，以此類推。</li></ul><footer><small>原規則第 2-7、2-8｜第 7–8 頁</small></footer></article>
+      <article><header><p class="meta">踢毽｜2025 年版</p><h2>花式怎樣判失誤與扣分？</h2></header><ul><li>規則將「修正」與「失誤」分列，修正每次扣 0.1 分、失誤每次扣 0.3 分。指定動作未做每個扣 2 分。</li><li>團體如停頓、動作未滿 3 人參與、用毽落地等，由裁判依缺失扣分。</li><li>個人 2 至 2 分 30 秒，雙人 3 至 3 分 30 秒，團體 5 至 5 分 30 秒。不足扣 3 分，超時所做動作不計。</li></ul><footer><small>原規則第 2-6、2-7、2-8-2｜第 6–8 頁</small></footer></article>
+      <article><header><p class="meta">踢毽｜2025 年版</p><h2>限時計次如何判定？</h2></header><ul><li>左右腳連續對稱踢。連續使用同一腳的該次不計，不得用手心、手背或定點。</li><li>比 2 分鐘內的成功次數。團體 4 人的次數加總。同次數時失誤較少者勝。</li></ul><footer><small>原規則第 2-6-4、2-6-5｜第 6–7 頁</small></footer></article>
+      <article><header><p class="meta">踢毽｜2025 年版</p><h2>網毽怎麼贏？</h2></header><ul><li>三局兩勝，每局 11 分。10 比 10 後須領先 2 分，14 比 14 時先拿第 15 分者勝。</li><li>個人須在兩次擊毽內過網，雙人須在三次內過網，每人最多連續擊毽兩次。</li><li>踩發毽線、發毽未過網、發毽落在有效區外、觸網等，依條文判失分。</li></ul><footer><small>原規則第 2A-6、2A-10｜第 11–13 頁</small></footer></article>
+    </section>
+
+    <nav class="controls" id="controls" aria-label="換頁">
+      <button type="button" id="previous">上一頁</button>
+      <label>跳至 <select id="jump"></select></label>
+      <output id="count" aria-live="polite"></output>
+      <button type="button" id="next">下一頁</button>
+    </nav>
+    <p class="note">投影片內容整理自 2025 年版規則；陀螺為 2026 年 1 月修正版。原始 PDF 需在 ChatGPT 檔案庫登入後下載。</p>
+  </div>
+</main>
+<script>
+(function () {
+  const deckEls = Array.from(document.querySelectorAll(".deck"));
+  const decks = new Map(deckEls.map((deck) => [deck.dataset.sport, deck]));
+  const slides = new Map(deckEls.map((deck) => [deck.dataset.sport, Array.from(deck.querySelectorAll("article"))]));
+  const titles = new Map(deckEls.map((deck) => [deck.dataset.sport, deck.dataset.title]));
+
+  const homeView = document.getElementById("homeView");
+  const deckView = document.getElementById("deckView");
+  const cards = Array.from(document.querySelectorAll(".cards a[data-sport]"));
+  const tabs = Array.from(document.querySelectorAll(".sports button[data-sport]"));
+  const controls = document.getElementById("controls");
+  const previous = document.getElementById("previous");
+  const next = document.getElementById("next");
+  const jump = document.getElementById("jump");
+  const count = document.getElementById("count");
+  const backHome = document.getElementById("backHome");
+
+  let active = null;
+  let index = 0;
+
+  function writeHash(value) {
+    try {
+      history.replaceState(null, "", value);
+    } catch (error) {
+      // 預覽環境可能禁止改寫網址，忽略即可
+    }
+  }
+
+  function render() {
+    const list = slides.get(active);
+    index = Math.max(0, Math.min(list.length - 1, index));
+    deckEls.forEach((deck) => { deck.hidden = deck.dataset.sport !== active; });
+    list.forEach((slide, i) => { slide.hidden = i !== index; });
+    previous.disabled = index === 0;
+    next.disabled = index === list.length - 1;
+    jump.value = String(index);
+    count.textContent = (index + 1) + " / " + list.length;
+    tabs.forEach((tab) => tab.setAttribute("aria-pressed", String(tab.dataset.sport === active)));
+  }
+
+  function buildJump() {
+    const list = slides.get(active);
+    jump.replaceChildren(...list.map((slide, i) => {
+      const option = document.createElement("option");
+      option.value = String(i);
+      option.textContent = (i + 1) + ". " + slide.querySelector("h2").textContent.trim();
+      return option;
+    }));
+  }
+
+  function open(sport, start) {
+    if (!decks.has(sport)) return;
+    active = sport;
+    index = start || 0;
+    homeView.hidden = true;
+    deckView.hidden = false;
+    controls.classList.add("ready");
+    buildJump();
+    render();
+    document.title = titles.get(sport) + "比賽規則｜民俗體育";
+    writeHash("#" + sport);
+    window.scrollTo(0, 0);
+  }
+
+  function showHome() {
+    active = null;
+    homeView.hidden = false;
+    deckView.hidden = true;
+    controls.classList.remove("ready");
+    tabs.forEach((tab) => tab.setAttribute("aria-pressed", "false"));
+    document.title = "民俗體育比賽規則｜家長與選手指南";
+    writeHash(location.pathname + location.search);
+    window.scrollTo(0, 0);
+  }
+
+  cards.forEach((card) => {
+    card.addEventListener("click", (event) => {
+      event.preventDefault();
+      open(card.dataset.sport, 0);
+    });
+  });
+
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => open(tab.dataset.sport, 0));
+  });
+
+  backHome.addEventListener("click", showHome);
+  previous.addEventListener("click", () => { index -= 1; render(); });
+  next.addEventListener("click", () => { index += 1; render(); });
+  jump.addEventListener("change", () => { index = Number(jump.value); render(); });
+
+  document.addEventListener("keydown", (event) => {
+    if (!active) return;
+    if (event.target.closest("button,select,input,a,textarea")) return;
+    if (event.altKey || event.ctrlKey || event.metaKey) return;
+    if (event.key === "ArrowLeft") { event.preventDefault(); if (index > 0) { index -= 1; render(); } }
+    if (event.key === "ArrowRight") { event.preventDefault(); if (index < slides.get(active).length - 1) { index += 1; render(); } }
+  });
+
+  const requested = decodeURIComponent(location.hash.slice(1));
+  if (decks.has(requested)) {
+    open(requested, 0);
+  } else {
+    showHome();
+  }
+
+  window.addEventListener("hashchange", () => {
+    const key = decodeURIComponent(location.hash.slice(1));
+    if (decks.has(key)) open(key, 0);
+    else showHome();
+  });
+})();
+</script>
+</body></html>

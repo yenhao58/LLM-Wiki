@@ -1,0 +1,11 @@
+# Obsidian 本機設定（含個人路徑）
+.obsidian/
+
+# Codex 內部工具暫存
+.wiki-transfer-*/
+
+# 舊版打包（入口頁跨檔跳轉有問題，保留在 fixed 版）
+folk-sports-rules-slides.zip
+
+# 打包前的檢查副本，內容與 presentations/ 相同
+slides_fix_inspect/
